@@ -1,11 +1,7 @@
-def solve(*args):
-    s = 0
+n := read()
+sum := 0
+for i in range(0, n):
+    nr := read()
+    sum += nr
 
-    for nr in args:
-        s += nr
-
-    return s
-
-
-if __name__ == "__main__":
-    print(solve(1, 2, 3, 4, 5, 100))
+print("Sum is: ", sum)
