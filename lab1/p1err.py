@@ -1,6 +1,6 @@
 def solve(a, b):
-    something = idontexist(a)
-    return something + b + hello
+    s = 12$34
+    return s + b + a + something
 
 
 if __name__ == "__main__":
