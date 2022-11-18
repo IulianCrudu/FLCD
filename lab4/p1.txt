@@ -1,0 +1,24 @@
+{
+
+int n1;
+int n2;
+int n3;
+char n4;
+
+read(n1);
+read(n2);
+read(n3);
+m := n1;
+n4 := 'a';
+
+if(m<n2) {
+    m := n2;
+}
+
+if(m < n3) {
+    m := n3;
+}
+
+print(m);
+print("Hello")
+}

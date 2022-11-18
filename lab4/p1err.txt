@@ -1,0 +1,9 @@
+{
+int s;
+int sum;
+
+s := 12$34;
+sum := s + something;
+print("Sum is ");
+print(sum);
+}
